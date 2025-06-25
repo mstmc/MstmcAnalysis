@@ -2,7 +2,8 @@
 This was to analysis the trend of MSTMC wechat account.
 
 # Example:
-![image](https://github.com/user-attachments/assets/9c8c9538-78d2-49bd-905a-571700d7c17c)
+![2024 Followers](https://github.com/user-attachments/assets/190a07a9-8f6a-41a3-9f68-d7bda561e4f9)
+
 
 # Step:
 ## 1. Download raw data
