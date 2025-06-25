@@ -4,6 +4,7 @@ This was to analysis the trend of MSTMC wechat account.
 # Example:
 ![2024 Followers](https://github.com/user-attachments/assets/190a07a9-8f6a-41a3-9f68-d7bda561e4f9)
 
+[微软头马俱乐部2024年回顾](https://mp.weixin.qq.com/s/q4MPuMwGuaPG7cvygJSw2g)
 
 # Step:
 ## 1. Download raw data
@@ -15,3 +16,6 @@ data_preprocess.py: some preprocess to merge DataRaw into DataSet
 
 ## 3. Trend
 user_analysis.py: output the trend graph
+
+
+
