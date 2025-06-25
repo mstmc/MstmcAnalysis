@@ -48,7 +48,7 @@ UserAnalysis.xlsx
         plt.subplot(211)
         plt.plot(xticks, df_group["累积关注人数"], 'r-o', label="Total Followers: {0}".format(max(df_group["累积关注人数"])))
         plt.grid(True)
-        plt.title("Trend of Followers in 2024")
+        plt.title("Trend of Followers in 2025")
         plt.xticks(xticks, df_group["Month"])
         plt.legend(loc="upper left")
         # plt.xlabel("Month")
@@ -149,7 +149,7 @@ StartTime	EndTIme	新增关注	搜一搜	扫描二维码	文章页关注	名片�
 if __name__ == '__main__':
     obj = DataProcess()
     # obj.user_trend_by_day(data_set_file_path="DataSet_2024/UserAnalysis.xlsx")
-    # obj.user_trend_by_month(data_set_file_path="DataSet_2024/UserAnalysis.xlsx")
-    obj.user_composation(data_set_file_path="DataSet_2024/UserComposition.xlsx")
+    obj.user_trend_by_month(data_set_file_path="DataSet_2025/UserAnalysis.xlsx")
+    # obj.user_composation(data_set_file_path="DataSet_2024/UserComposition.xlsx")
 
     print("done")

@@ -36,12 +36,12 @@ class DataPreProcess:
 
 if __name__ == '__main__':
     obj = DataPreProcess()
-    # obj.read_merge_data(
-    #     data_raw_folder="DataRaw_2024/", data_raw_file_prefix="user_analysis_2024",
-    #     data_set_folder="DataSet_2024/", data_set_file_name="UserAnalysis.xlsx")
-    obj.read_merge_ContentAnalysis(
-        data_raw_folder="DataRaw_2024/", data_raw_file_pattern="ContentAnalysis_AllMass_2024.*.xls",
-        data_set_folder="DataSet_2024/", data_set_file_name="ContentAnalysis_AllMass.xlsx")
+    obj.read_merge_data(
+        data_raw_folder="DataRaw_2025/", data_raw_file_prefix="user_analysis_2025",
+        data_set_folder="DataSet_2025/", data_set_file_name="UserAnalysis.xlsx")
+    # obj.read_merge_ContentAnalysis(
+    #     data_raw_folder="DataRaw_2024/", data_raw_file_pattern="ContentAnalysis_AllMass_2024.*.xls",
+    #     data_set_folder="DataSet_2024/", data_set_file_name="ContentAnalysis_AllMass.xlsx")
 
     print("done")
 
